@@ -1,0 +1,34 @@
+@font-face {
+  font-family: 'Greycliff CF Demi';
+  src: url('./fonts/GreycliffCF-DemiBold.woff2') format('woff2'),
+      url('./fonts/GreycliffCF-DemiBold.woff') format('woff'),
+      url('./fonts/GreycliffCF-DemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Greycliff CF';
+  src: url('./fonts/GreycliffCF-Regular.woff2') format('woff2'),
+      url('./fonts/GreycliffCF-Regular.woff') format('woff'),
+      url('./fonts/GreycliffCF-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Greycliff CF Bold';
+  src: url('./fonts/GreycliffCF-Bold.woff2') format('woff2'),
+      url('./fonts/GreycliffCF-Bold.woff') format('woff'),
+      url('./fonts/GreycliffCF-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+$bold: 'Greycliff CF Bold';
+$demi: 'Greycliff CF Demi';
+$regular: 'Greycliff CF';
